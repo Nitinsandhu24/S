@@ -22,7 +22,7 @@ export default function SignupPage() {
     e.preventDefault();
     // You can handle signup logic here
     alert("Sign up successful! Check your email for confirmation.");
-    window.location.href = "/";
+    window.location.href = "/Login";
     console.log("Full Name:", fullName);
     console.log("Email:", email);
     console.log("Password:", password);

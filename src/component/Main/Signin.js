@@ -16,7 +16,7 @@ export default function LoginPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Logged in successfully");
-    window.location.href = "/";
+    window.location.href = "/Mainpage";
     console.log("Email:", email);
     console.log("Password:", password);
   };
