@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import { FaHome, FaSearch } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
 import Death from "../images/death-row.jpg";
@@ -61,9 +62,11 @@ export default function LowerNav() {
       </div>
       <div>
         <div>
-          <button className="border border-gray-700 rounded border-solid p-2 m-1 hover:bg-blue-700 hover:scale-130">
-            Artists
-          </button>
+          <Link to="/artist">
+            <button className="border border-gray-700 rounded border-solid p-2 m-1 hover:bg-blue-700 hover:scale-130">
+              Artists
+            </button>
+          </Link>
           <button className="border border-gray-700 rounded border-solid p-2 m-1 hover:bg-blue-700 hover:scale-130">
             Albums
           </button>
